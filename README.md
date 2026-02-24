@@ -10,3 +10,8 @@ In `main.c`:
 - `make all` 
 - use your favourite tool to flash the device.
 
+
+## For this to work with ESP32JTAG
+
+After ESP32JTAG P3 of 3 lines SWD/SWCLK/GND is connected to target STM32F411, power od ESP32JTAG and then target board, run VSCode+Cortex-debug and use it to open this folder, press F5 to start download and debug.
+
